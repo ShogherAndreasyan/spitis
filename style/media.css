@@ -1,0 +1,714 @@
+@media (max-width:1800px) {
+
+        .image__tufted__chair,
+        .modway__chair,
+        .image__carson__chair {
+            width: 200px;
+            height: 169px;
+            background-size: cover;
+        }
+
+        .design__style {
+            justify-content: center;
+        }
+    }
+
+@media (max-width:1700px) {
+    header {
+        padding: 50px 100px;
+    }
+
+    main {
+        padding: 30px 100px 50px;
+    }
+
+    .burger__menu {
+        gap: 20px;
+    }
+
+    .search {
+        padding: 5px 30px 5px 10px;
+        margin-right: 0px;
+    }
+
+    .collection__title h3 {
+        font-size: 30px;
+    }
+
+    .collection__title span {
+        font-size: 30px;
+    }
+
+    .category,
+    .chairs {
+        justify-content: center;
+    }
+
+    .design__style{
+        flex-wrap: wrap;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 600px;
+        height: 350px;
+    }
+
+}
+
+@media(max-width: 1500px){
+    .design__style{
+        display: grid;
+        flex-wrap: nowrap;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+
+    .standart__style{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .modern__style{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .classic__style{
+        grid-column: 1/3;
+        grid-row: 2;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1400px) {
+    .search {
+        padding: 5px 10px 5px 10px;
+        margin-right: 50px;
+    }
+
+    .burger__menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .sub__menu:hover .burger__menu {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        background: #4A6B5F;
+        padding: 30px;
+        border-radius: 10px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .account__menu {
+        right: 130px;
+    }
+
+    .list__furniture {
+        grid-template-columns: auto auto;
+    }
+
+    .chandeliers {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    .sofas {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    .arm__chair {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .lamps {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .new__collection__img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .collection__title h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 500px;
+        height: 292px;
+    }
+
+    .chairs {
+        gap: 50px;
+        padding: 50px 143px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .about__chairs {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .tufted {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .modway {
+        grid-column: 1;
+        grid-row: 2px;
+    }
+
+    .carson {
+        grid-column: 2;
+        grid-row: 2px;
+    }
+
+    .image__tufted__chair,
+    .modway__chair,
+    .image__carson__chair {
+        width: 329px;
+        height: 278px;
+        background-size: cover;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+
+    .our__company{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .quick__link{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .shopping{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .store__information{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .product__img {
+        margin-right: 0px;
+    }
+
+    .product__img img {
+        width: 500px;
+        margin-left: 0px;
+    }
+
+    .subtitle__furniture {
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 325px;
+    }
+
+    .collection__title h3 {
+        line-height: 30px;
+    }
+
+    .new__collection {
+        flex-direction: column;
+    }
+
+    .chairs {
+        padding: 50px;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 400px;
+        height: 233px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .advertisement {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+
+    .about__product {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        text-align: center;
+    }
+
+    .product__img {
+        grid-column: 1/3;
+        grid-row: 3/5;
+        margin: 0 auto;
+    }
+
+    .dots {
+        grid-column: 1/3;
+        grid-row: 5;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .subtitle__furniture {
+        max-width: 100%;
+    }
+
+    .list__furniture {
+        grid-template-columns: auto;
+    }
+
+    .chandeliers {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .chandeliers img {
+        height: 400px;
+    }
+
+    .sofas {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sofas img {
+        width: 500px;
+        padding: 50px;
+    }
+
+    .arm__chair {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .lamps {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 30px;
+    }
+
+    .chairs {
+        padding: 0px;
+    }
+
+    .image__tufted__chair,
+    .modway__chair,
+    .image__carson__chair {
+        width: 200px;
+        height: 169px;
+        background-size: cover;
+    }
+
+    .category{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .item__furniture{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .item__outdoor{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .item__bathroom{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .item__kitchen{
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .item__lightning{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .kitchen{
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 350px;
+        height: 204px;
+    }
+
+    .about__style p {
+        max-width: 300px;
+    }
+
+    footer {
+        padding: 40px 50px 70px;
+    }
+
+}
+
+@media (max-width:767px) {
+    header {
+        padding: 50px;
+    }
+
+    .product__img {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .product__img img {
+        width: 400px;
+        margin-left: 0px;
+    }
+
+    .new__collection__item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .search {
+        margin-right: 0;
+    }
+
+    .image__tufted__chair,
+    .modway__chair,
+    .image__carson__chair {
+        width: 450px;
+        height: 380px;
+        background-size: cover;
+    }
+
+    .category{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .item__furniture{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .item__outdoor{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .item__bathroom{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .item__kitchen{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .item__lightning{
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .category__img {
+        height: 250px;
+        width: 412px;
+    }
+
+    .send__mail input {
+        font-size: 14px;
+    }
+
+    .send__mail img {
+        padding: 5px 10px;
+        height: 40px;
+    }
+
+    .chairs {
+        margin: 0 auto;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+    .about__chairs {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .tufted {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .modway {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .carson {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .list__furniture {
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+        align-items: center;
+    }
+
+    .list__item {
+        width: 450px;
+    }
+
+    .sofas img {
+        width: 400px;
+    }
+
+    .design__style{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+    .standart__style{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .modern__style{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .classic__style{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 500px;
+        height: 292px;
+    }
+
+}
+
+@media (max-width:650px) {
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+        justify-content:center;
+    }
+
+    .our__company{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .quick__link{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .shopping{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .store__information{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .list__item {
+        width: 340px;
+    }
+
+    footer {
+        gap: 50px;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:575px) {
+    .advertisement {
+        grid-template-columns: auto;
+    }
+
+    .about__product {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .product__img {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .dots {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav__bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .spitis {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .image__tufted__chair,
+    .modway__chair,
+    .image__carson__chair {
+        width: 300px;
+        height: 253px;
+        background-size: cover;
+        margin: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shop__now {
+        margin: 0 auto 20px;
+    }
+
+    .about__product {
+        width: 350px;
+    }
+
+    .about__product h3 {
+        max-width: 350px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+
+    .subtitle__furniture {
+        max-width: 300px;
+        font-size: 37px;
+        margin: 34px auto;
+    }
+
+    .discount {
+        max-width: 300px;
+        font-size: 27px;
+        margin: 34px auto 47px;
+    }
+
+    .sofas img {
+        width: 370px;
+    }
+
+    .product__img img,
+    .product__img {
+        width: 350px;
+    }
+
+    main {
+        padding: 30px 50px;
+    }
+
+    .category__img {
+        height: 180px;
+        width: 297px;
+    }
+
+    .standart__style img,
+    .modern__style img,
+    .classic__style img
+    {
+        width: 700px;
+        height: 292px;
+    }
+
+    .to__up {
+        width: 42px;
+        height: 60px;
+        right: -25px;
+        bottom: -15px;
+    }
+
+    .design__style img {
+        width: 300px;
+    }
+
+    .latest__blog {
+        margin: 0 auto;
+    }
+
+    .latest__blog>p {
+        font-size: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .about__style p {
+        max-width: 300px;
+    }
+
+    .sub__menu:hover .burger__menu {
+        top: 175px;
+        right: 20px;
+        gap: 5px;
+        padding:10px;
+    }
+}
